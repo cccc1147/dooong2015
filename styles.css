@@ -122,3 +122,8 @@ footer {
   width: 100%;
   margin: 0 auto; /* 使其水平居中 */
 }
+#logo img {
+  width: 30px;
+  height: 30px;
+}
+

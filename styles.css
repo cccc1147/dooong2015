@@ -81,7 +81,7 @@ footer {
   bottom: 0;
   width: 100%;
 }
-/* 使圖片排成一排 */
+/* 使圖片和描述排成一排 */
 .image-grid {
   display: flex;
   flex-wrap: wrap;
@@ -92,11 +92,19 @@ footer {
 figure {
   flex: 1 0 calc(33.33% - 10px); /* 在這裡 10px 是用來補償 gap 的距離 */
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 /* 圖片滿寬填充 figure */
 img {
   width: 100%;
   height: auto;
+}
+
+/* 圖片描述樣式 */
+figcaption {
+  text-align: center; /* 讓描述文字置中 */
+  margin-top: 5px; /* 調整描述和圖片之間的間距 */
 }
 

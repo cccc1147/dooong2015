@@ -107,3 +107,30 @@ footer {
   bottom: 0;
   width: 100%;
 }
+body {
+  margin: 0; /* 清除 body 的默認邊距 */
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh; /* 確保內容占滿整個視窗高度 */
+  background-color: #f0f0f0; /* 背景色可自行調整 */
+}
+
+main {
+  flex: 1; /* 內容區撐開，占滿剩餘空間 */
+  display: flex;
+  justify-content: center; /* 內容置中 */
+  align-items: flex-start; /* 內容頂部對齊 */
+  padding: 20px; /* 可以根據需要添加內邊距 */
+}
+
+header,
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* 其他你自己的樣式設定 */
+

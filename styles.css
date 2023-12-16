@@ -117,8 +117,8 @@ footer {
   color: #fff;
   text-align: center;
   padding: 10px;
-  position: fixed;
+  position: relative; /* 將定位改為相對位置 */
   bottom: 0;
   width: 100%;
-  margin: 0 auto;
+  margin: 0 auto; /* 使其水平居中 */
 }

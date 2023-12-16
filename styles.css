@@ -81,4 +81,22 @@ footer {
   bottom: 0;
   width: 100%;
 }
+/* 使圖片排成一排 */
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* 可調整圖片之間的間距 */
+}
+
+/* 每個 figure 元素佔三分之一的寬度 */
+figure {
+  flex: 1 0 calc(33.33% - 10px); /* 在這裡 10px 是用來補償 gap 的距離 */
+  margin: 0;
+}
+
+/* 圖片滿寬填充 figure */
+img {
+  width: 100%;
+  height: auto;
+}
 
